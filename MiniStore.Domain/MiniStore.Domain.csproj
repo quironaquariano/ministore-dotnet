@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\MinStore.Recourses\MinStore.Resourses.csproj" />
   </ItemGroup>
 
 </Project>
