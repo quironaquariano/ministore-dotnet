@@ -4,19 +4,19 @@ using System.Collections.Generic;
 
 namespace MiniStore.Domain.Services
 {
-    interface IUserRepository
+    public interface IUserRepository
     {
-        ICollection<User> GetAllUsers();
+        ICollection<User> GetAll();
 
-        User GetUser(string Email);
+        User Get(string Email);
 
-        User GetUser(Guid Id);
+        User Get(Guid Id);
 
-        void CreateUser(User user);
+        void Create(User user);
 
-        void UpdateUser(User user);
+        void Update(User user);
 
-        void DeleteUser(User user);
+        void Delete(User user);
 
 
     }
